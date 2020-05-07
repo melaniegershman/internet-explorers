@@ -1,0 +1,52 @@
+:root {
+  --primary-text: #70D6FF;
+  --secondary-text: #FF70A6;
+  --accent: #FF9770;
+  --secondary-accent: #FFD670;
+  --chartreuse: #E9FF70;
+}
+
+body {
+	background-color: var(--chartreuse);
+	color: var(--primary-text);
+	font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.nav-container {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 100px;
+	padding-left: 100px;
+	    width: 90vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: -1vw;
+    height: 60px;
+}
+
+.nav-container a {
+	text-decoration: none;
+	color: var(--primary-text);
+}
+
+.nav-container a:hover {
+	color: var(--secondary-text);
+}
+
+.nav-link-container {
+	display: flex;
+	width: 500px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo {
+	display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
